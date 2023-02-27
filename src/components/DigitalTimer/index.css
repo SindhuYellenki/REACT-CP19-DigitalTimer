@@ -1,0 +1,97 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+.bg-container {
+  background-image: linear-gradient(to right, white, #cffcf1);
+  height: 100vh;
+  display: flex;
+}
+.heading {
+  text-align: center;
+}
+.timer-text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.timer-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-image: cover;
+  background-position: center;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer-round-container {
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  border-width: 0px;
+  background-color: transparent;
+}
+.text-style {
+  border-width: 0px;
+  background-color: transparent;
+}
+.timer {
+  color: #00d9f5;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+.timerStatus {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+.start-pause-container {
+  display: flex;
+  flex-direction: row;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.start-reset-pause-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.start-stop-image {
+  height: 30px;
+  width: 30px;
+}
+.text-style {
+  color: black;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+.para {
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.plus-minus-container {
+  display: flex;
+  flex-direction: row;
+}
+.setTime {
+  height: 30px;
+  width: 50px;
+  background-color: #cffcf1;
+}
